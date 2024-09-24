@@ -5,7 +5,7 @@ import tensorflow as tf
 from sklearn.preprocessing import LabelEncoder
 
 # Load pre-trained CNN-LSTM model
-model = tf.keras.models.load_model(r'D:\PythonProject\signlanguage\sign_model2.h5')
+model = tf.keras.models.load_model(r'Path_to_your_model.h5')
 
 # Initialize MediaPipe hands model
 mp_hands = mp.solutions.hands
